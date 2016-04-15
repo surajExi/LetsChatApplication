@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ChatDemoAppModelStoreContainer" CdmEntityContainer="ChatDemoAppEntities">
+    <EntitySetMapping Name="ChatApps">
+      <EntityTypeMapping TypeName="ChatDemoAppModel.ChatApp">
+        <MappingFragment StoreEntitySet="ChatApp">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ChatSession" ColumnName="ChatSession" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
